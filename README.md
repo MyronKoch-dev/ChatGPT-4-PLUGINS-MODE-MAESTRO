@@ -31,4 +31,4 @@ This project is open source. You can view the source code and contribute on [Git
 
 ## Video
 
-[![Watch the video](https://img.youtube.com/vi/l0Pz_Ppr5B4/maxresdefault.jpg)](https://youtu.be/l0Pz_Ppr5B4)
+[![Watch the video](https://img.youtube.com/vi/l0Pz_Ppr5B4/maxresdefault.jpg)](https://youtu.be/l0Pz_Ppr5B4) 
