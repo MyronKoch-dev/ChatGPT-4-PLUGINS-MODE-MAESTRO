@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "GPT-4 Dropdown Resizer",
-  "version": "0.1",
+  "version": "1.0",
   "description": "Lengthens chatGPT-4's woefully tiny Plugins Dropdown and provides a direct GPT-4 With Plugins (no detours!) chat button.",
   "permissions": ["scripting"],  
   "action": {
