@@ -23,3 +23,8 @@ If this extension saves you a ton of aggravation, consider [buying me a coffee](
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+## Source Code
+
+This project is open source. You can view the source code and contribute on [GitHub](https://github.com/MyronKoch-dev/gpt4-dropdown-resizer).
+
