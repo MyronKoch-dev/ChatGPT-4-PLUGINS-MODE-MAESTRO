@@ -6,6 +6,7 @@ This Chrome extension is designed to enhance your experience with the ChatGPT-4 
 
 2. ChatGPT Plus defaults to the GPT-3.5 model when starting a chat ...but With GPT-4 Dropdown Resizer, you can bypass this detour and start a new GPT-4 chat in Plugins Mode with a single click. 🖱️
 
+
 ## 📁 Files
 
 - `manifest.json`: The manifest file contains important information about the extension such as its name, version, permissions it requires, and files it uses.
@@ -28,3 +29,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 This project is open source. You can view the source code and contribute on [GitHub](https://github.com/MyronKoch-dev/gpt4-dropdown-resizer).
 
+## Video
+
+[![Watch the video](https://img.youtube.com/vi/l0Pz_Ppr5B4/maxresdefault.jpg)](https://youtu.be/l0Pz_Ppr5B4)
