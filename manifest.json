@@ -3,7 +3,7 @@
   "name": "GPT-4 Dropdown Resizer",
   "version": "1.0",
   "description": "Lengthens chatGPT-4's woefully tiny Plugins Dropdown and provides a direct GPT-4-With-Plugins (and no detours!) chat button.",
-  "permissions": ["scripting"],  
+  "permissions": [],  
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
@@ -14,7 +14,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://chat.openai.com/?model=gpt-4-plugins"],
+      "matches": ["https://chat.openai.com/*"],
       "js": ["contentScript.js"]
     }
   ]
