@@ -2,7 +2,7 @@
 
 This Chrome extension is designed to enhance your experience with the ChatGPT-4 interface by addressing two common user interface frustrations:
 
-1. The default dropdown menu for GPT-4 plugins is woefully small, making it hard to visualize and select from your installed extensions. This extension automatically resizes the dropdown menu to fit your screen perfectly, making your plugin selection process a breeze. 🌬️
+1. The default dropdown menu for GPT-4 plugins is woefully small, making it hard to visualize and select from your installed extensions. This extension automatically resizes the dropdown menu to display all of your installed plugins, making your plugin selection process a breeze. 
 
 2. ChatGPT Plus defaults to the GPT-3.5 model when starting a chat ...but With ChatGPT-4 PLUGINS MODE MAESTRO, you can bypass this detour and start a new GPT-4 chat in Plugins Mode with a single click. 🖱️
 

@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "chatGPT-4 PLUGINS MODE MASTER",
+  "name": "chatGPT-4 PLUGINS MODE MAESTRO",
   "version": "1.0",
-  "description": "Automatically lengthens the ChatGPT-4 'Plugins Dropdown' to display all your plugins (default only shows 4).",
+  "description": "provides a button to activate a new chat in ChatGPT PLUS, model 4, Plugins Mode. It also lengthens the ChatGPT-4 'Plugins Dropdown' to display all your plugins (default is 4).",
   "permissions": [],  
   "action": {
     "default_popup": "popup.html",
