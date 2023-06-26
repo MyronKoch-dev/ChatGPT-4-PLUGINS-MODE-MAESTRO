@@ -17,10 +17,6 @@ This Chrome extension is designed to enhance your experience with the ChatGPT-4 
 
 - `popup.js`: This script handles the click event for the "Start New GPT-4 Chat With Plugins" button in the popup.
 
-## 🎉 Enjoy!
-
-If this extension saves you a ton of aggravation, consider [buying me a coffee](https://www.buymeacoffee.com/myronkoch) ☕!
-
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
@@ -32,3 +28,8 @@ This project is open source. You can view the source code and contribute on [Git
 ## Video
 
 [![Watch the video](https://img.youtube.com/vi/l0Pz_Ppr5B4/maxresdefault.jpg)](https://youtu.be/l0Pz_Ppr5B4) 
+
+
+## 🎉 Enjoy!
+
+If this extension saves you a ton of aggravation, consider tipping through my [venmo](https://venmo.com/myronkoch), my [paypal](httpe://paypal.me/myronkoch), or maybe [buy me a coffee](https://www.buymeacoffee.com/myronkoch) ☕!
