@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "chatGPT-4 PLUGINS MODE MASTER",
   "version": "1.0",
-  "description": "Sizes chatGPT-4's woefully tiny Plugins Dropdown to show more than 4 plugins, and provides a direct GPT-4-With-Plugins (and no detours!) chat button.",
+  "description": "Automatically lengthens the ChatGPT-4 'Plugins Dropdown' to display all your plugins (default only shows 4).",
   "permissions": [],  
   "action": {
     "default_popup": "popup.html",
