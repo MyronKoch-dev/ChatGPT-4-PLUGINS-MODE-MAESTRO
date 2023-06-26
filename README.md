@@ -32,4 +32,4 @@ This project is open source. You can view the source code and contribute on [Git
 
 ## 🎉 Enjoy!
 
-If this extension saves you a ton of aggravation, consider tipping through my [venmo](https://venmo.com/myronkoch), my [paypal](httpe://paypal.me/myronkoch), or maybe [buy me a coffee](https://www.buymeacoffee.com/myronkoch) ☕!
+If this extension saves you a ton of aggravation, consider tipping through my [venmo](https://venmo.com/myronkoch), my [paypal](https://paypal.me/myronkoch), or maybe [buy me a coffee](https://www.buymeacoffee.com/myronkoch) ☕!
