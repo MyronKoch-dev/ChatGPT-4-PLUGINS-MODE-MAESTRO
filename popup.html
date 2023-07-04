@@ -2,11 +2,12 @@
 <html>
 <head>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <style>
         body {
             font-family: 'Roboto', sans-serif;
             padding: 10px;
-            background-color: #2C2C2C; /* Light gray background */
+            background-color: #2C2C2C;
             color: #FFFFFF;
             min-width: 200px;
             display: flex;
@@ -14,9 +15,9 @@
             align-items: center;
             justify-content: center;
         }
-        #openButton {
+        button {
             padding: 10px 20px;
-            background-color: #2f88ff; /* New blue color */
+            background-color: #2f88ff;
             border: none;
             color: white;
             text-align: center;
@@ -26,20 +27,26 @@
             margin: 4px 2px;
             cursor: pointer;
             border-radius: 4px;
+            width: 100%;
         }
-        #openButton:hover {
-            background-color: #1c6cd6; /* Darker blue */
+        .buttons-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            width: 100%;
         }
         a {
-            color: #87cefa; /* Light blue */
+            color: #87cefa;
         }
         ul {
-            list-style: none; /* Remove default bullets */
-            padding-left: 0; /* Remove indentation */
+            list-style: none;
+            padding-left: 0;
         }
         li::before {
-            content: "\2764\0020"; /* Add heart before each list item */
-            color: #FF0000; /* Red heart */
+            content: "\2764\0020";
+            color: #FF0000;
         }
         h2 {
             text-align: center;
@@ -51,13 +58,21 @@
     </style>
 </head>
 <body>
-    <h2>ChatGPT-4 PLUGINS MODE MAESTRO</h2>
-    <img src="icons/icon48.png" alt="chatGPT-4 PLUGINS MODE MAESTRO">
-        <ul>
-            <li>Open ChatGPT-4 in Plugins Mode, <b><u>directly</u></b>, without going through the 3.5 default detour (ugh).</li><br>
-                <button id="openButton">Start New chatGPT-4 Chat in Plugins Mode</button>
-                <script src="popup.js"></script><br><br>    
-        <h3><li style="color: #d0b55e;">This extension automatically lengthens your ChatGPT-4 'Plugins Dropdown' to display all your plugins (default only shows 4).</li></h3><br>
-                <li>If this extension saves you a ton of aggravation, please consider leaving a tip at <a href="https://venmo.com/myronkoch" target="_blank">my Venmo,</a> <a href="https://www.paypal.me/myronkoch" target="_blank"> my PayPal</a> or thru &#x2615;<a href="https://www.buymeacoffee.com/myronkoch" target="_blank"> buy me a coffee</a>!</ul>
+    <h2>ChatGPT PLUS | MODE MAESTRO</h2>
+    <img src="icons/icon48.png" alt="ChatGPT PLUS | MODE MAESTRO">
+    <ul>
+        <li>Quickly access any mode of ChatGPT Plus: GPT-4 + Plugins, GPT-4 Default, or GPT-3.5 Default. No more detours!</li><br>
+        <div class="buttons-container">
+            <button id="openButton"><i class="fas fa-plug"></i> GPT-4 + Plugins</button>
+            <!-- <button id="openButton4Browsing"><i class="fas fa-globe"></i> GPT-4 + Browsing</button> [that feature may no longer be available]-->
+            <button id="openButton4Default"><i class="fas fa-robot"></i> GPT-4 Default</button>
+            <button id="openButton35Turbo"><i class="fas fa-turbo"></i> GPT-3.5 Turbo</button>
+        </div>
+        <script src="popup.js"></script><br><br>    
+        <li style="color: #d0b55e;">This extension also enhances your 'Plugins Dropdown' in Plugins Mode, extending it to display all your installed plugins (default shows 4).</li>
+        <li>If this extension saves you a ton of aggravation, please consider leaving a tip at <a href="https://venmo.com/myronkoch" target="_blank">my Venmo,</a> <a href="https://www.paypal.me/myronkoch" target="_blank"> my PayPal</a> or thru &#x2615;<a href="https://www.buymeacoffee.com/myronkoch" target="_blank"> buy me a coffee</a></li>
+        <li style="color: #d0b55e;">PLEASE NOTE THIS PLUGIN ONLY WORKS ON THE PAID VERSION OF ChatGPT FOUND AT https://chat.openai.com/ </li>
+
+    </ul>
 </body>
 </html>

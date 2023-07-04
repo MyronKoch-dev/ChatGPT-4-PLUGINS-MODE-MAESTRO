@@ -1,9 +1,9 @@
 {
   "manifest_version": 3,
-  "name": "chatGPT-4 PLUGINS MODE MAESTRO",
+  "name": "ChatGPT PLUS | MODE MAESTRO",
   "version": "1.0",
-  "description": "makes new chat button for ChatGPT PLUS, model 4, Plugins Mode, then lengthens ChatGPT-4 'Plugins Dropdown' to display all plugins.",
-  "permissions": [],  
+  "description": "Quickly access any mode of ChatGPT Plus: GPT-4 + Plugins, GPT-4 + Browsing, GPT-4 Default, or GPT-3.5 Default. No more detours!",
+  "permissions": [],
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
@@ -14,8 +14,16 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://chat.openai.com/?model=gpt-4-plugins"],
+      "matches": ["https://chat.openai.com/*"],
       "js": ["contentScript.js"]
     }
   ]
 }
+
+
+
+
+
+
+
+
