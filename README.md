@@ -30,4 +30,4 @@ This project is open source. You can view the source code and contribute on [Git
 
 ## 🎉 Enjoy!
 
-If this extension saves you a ton of aggravation, consider tipping through [MyronKoch.eth](https://myronkoch.eth.xyz), [venmo](https://venmo.com/myronkoch), my [paypal](https://paypal.me/myronkoch), or maybe [buy me a coffee](https://www.buymeacoffee.com/myronkoch) ☕!
+If this plugin saves you some aggravation, consider tipping via my [venmo](https://venmo.com/myronkoch), [paypal](https://paypal.me/myronkoch), [buy me a coffee](https://www.buymeacoffee.com/myronkoch) ☕... or send some BTC, ETH, ATOM or Polygon through [MyronKoch.eth](https://myronkoch.eth.xyz). Thanks!

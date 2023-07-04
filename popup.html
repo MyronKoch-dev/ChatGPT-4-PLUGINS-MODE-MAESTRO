@@ -48,31 +48,42 @@
             content: "\2764\0020";
             color: #FF0000;
         }
-        h2 {
+        h3 {
             text-align: center;
         }
         img {
-            width: 48px;
-            height: 48px;
+            width: 16px;
+            height: 16px;
+        }
+        .title-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
         }
     </style>
 </head>
 <body>
-    <h2>ChatGPT PLUS | MODE MAESTRO</h2>
-    <img src="icons/icon48.png" alt="ChatGPT PLUS | MODE MAESTRO">
-    <ul>
-        <li>Quickly access any mode of ChatGPT Plus: GPT-4 + Plugins, GPT-4 Default, or GPT-3.5 Default. No more detours!</li><br>
+    <div class="title-container">
+        <img src="icons/icon16.png" alt="ChatGPT PLUS | MODE MAESTRO">
+        <h3>ChatGPT PLUS | MODE MAESTRO</h3>
+    </div>
+    <ul> 
+    <li>Quickly access any mode of ChatGPT Plus: GPT-4 + Plugins, GPT-4 Default, or GPT-3.5 Default. No more detours!</li><br> 
+ 
         <div class="buttons-container">
-            <button id="openButton"><i class="fas fa-plug"></i> GPT-4 + Plugins</button>
+            <button id="openButton"><i class="fas fa-plug"></i> GPT-4 + Plugins <br>w/ dropdown resize</button>
             <!-- <button id="openButton4Browsing"><i class="fas fa-globe"></i> GPT-4 + Browsing</button> [this is a beta feature that is not always available]-->
             <button id="openButton4Default"><i class="fas fa-robot"></i> GPT-4 Default</button>
             <button id="openButton35Turbo"><i class="fas fa-turbo"></i> GPT-3.5 Turbo</button>
         </div>
-        <script src="popup.js"></script><br><br>    
-        <li style="color: #d0b55e;">This extension also enhances your 'Plugins Dropdown' in Plugins Mode, extending it to display all your installed plugins (default shows 4).</li>
-        <li>If this extension saves you tons of aggravation, consider tipping me at <a href="https://MyronKoch.eth.xyz" target="_blank">MyronKoch.eth</a>, <a href="https://venmo.com/myronkoch" target="_blank">or Venmo,</a> <a href="https://www.paypal.me/myronkoch" target="_blank"> or PayPal</a> or thru &#x2615;<a href="https://www.buymeacoffee.com/myronkoch" target="_blank"> buy me a coffee</a></li>
-        <li style="color: #d0b55e;">PLEASE NOTE THIS PLUGIN ONLY WORKS ON THE PAID VERSION OF ChatGPT FOUND AT https://chat.openai.com/ </li>
+        <script src="popup.js"></script><br><br>   
+        <li style="color: #d0b55e;">This extension also extends your 'Plugins Dropdown' in Plugins Mode to display more of your installed plugins (default shows 4).</li><br> 
+        <li>If this plugin saves you some aggravation, consider tipping via my <a href="https://venmo.com/myronkoch" target="_blank">Venmo,</a> <a href="https://www.paypal.me/myronkoch" target="_blank"> PayPal</a> &#x2615;<a href="https://www.buymeacoffee.com/myronkoch" target="_blank"> buy.me.a.coffee</a>, or send BTC, ETH, ATOM or Polygon to <a href="https://myronkoch.eth.xyz">MyronKoch.eth</a></li><br> 
+        <li style="color: #d0b55e;">PLEASE NOTE THIS PLUGIN ONLY WORKS ON THE _PAID_ VERSION OF ChatGPT FOUND AT chat.openai.com </li>
 
     </ul>
 </body>
 </html>
+
+
