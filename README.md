@@ -1,11 +1,10 @@
-# ![ChatGPT-4 PLUGINS MODE MAESTRO](icons/icon48.png) ChatGPT-4 PLUGINS MODE MAESTRO
+# ![ChatGPT PLUS | MODE MAESTRO](icons/icon48.png) ChatGPT PLUS | MODE MAESTRO
 
-This Chrome extension is designed to enhance your experience with the ChatGPT-4 interface by addressing two common user interface frustrations:
+This Chrome extension is designed to enhance your experience with the ChatGPT Plus interface by addressing two common user interface frustrations:
 
-1. The default dropdown menu for GPT-4 plugins is woefully small, making it hard to visualize and select from your installed extensions. This extension automatically resizes the dropdown menu to display all of your installed plugins, making your plugin selection process a breeze. 
+1. The default dropdown menu for already-installed GPT-4 plugins is woefully small, making it hard to visualize and select from your installed extensions. This extension automatically resizes the dropdown menu to display more of your installed plugins, making your plugin selection process a breeze. 
 
-2. ChatGPT Plus defaults to the GPT-3.5 model when starting a chat ...but With ChatGPT-4 PLUGINS MODE MAESTRO, you can bypass this detour and start a new GPT-4 chat in Plugins Mode with a single click. 🖱️
-
+2. ChatGPT Plus defaults to the GPT-3.5 model when starting a chat. With ChatGPT PLUS | MODE MAESTRO, you can bypass this detour and start a new chat in any mode (GPT-4 + Plugins, GPT-4 Default, or GPT-3.5 Default) with a single click. 🖱️
 
 ## 📁 Files
 
@@ -15,7 +14,7 @@ This Chrome extension is designed to enhance your experience with the ChatGPT-4 
 
 - `popup.html`: This is the HTML file for the popup that appears when you click on the extension's icon in the Chrome toolbar.
 
-- `popup.js`: This script handles the click event for the "Start New GPT-4 Chat With Plugins" button in the popup.
+- `popup.js`: This script handles the click event for the buttons in the popup.
 
 ## 📝 License
 
@@ -28,7 +27,6 @@ This project is open source. You can view the source code and contribute on [Git
 ## Video
 
 [![Watch the video](https://img.youtube.com/vi/l0Pz_Ppr5B4/maxresdefault.jpg)](https://youtu.be/l0Pz_Ppr5B4) 
-
 
 ## 🎉 Enjoy!
 
