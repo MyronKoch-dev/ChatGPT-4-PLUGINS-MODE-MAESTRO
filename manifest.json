@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "ChatGPT PLUS | MODE MAESTRO",
   "version": "1.0",
-  "description": "Quickly access any mode of ChatGPT Plus: GPT-4 + Plugins, GPT-4 + Browsing, GPT-4 Default, or GPT-3.5 Default. No more detours!",
+  "description": "Quickly access any mode of ChatGPT Plus: GPT-4 + Plugins, GPT-4 Default, or GPT-3.5 Default. No more detours!",
   "permissions": [],
   "action": {
     "default_popup": "popup.html",
