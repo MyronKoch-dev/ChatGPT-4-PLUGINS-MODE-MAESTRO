@@ -10,8 +10,12 @@ addEventListenerOnce('openButton', 'click', function() {
   chrome.tabs.create({ url: 'https://chat.openai.com/?model=gpt-4-plugins' });
 });
 
-addEventListenerOnce('openButton4Browsing', 'click', function() {
-  chrome.tabs.create({ url: 'https://chat.openai.com/?model=gpt-4-browsing' });
+//addEventListenerOnce('openButton4Browsing', 'click', function() {
+//  chrome.tabs.create({ url: 'https://chat.openai.com/?model=gpt-4-browsing' });
+//});
+
+addEventListenerOnce('openButton4CodeInterpreter', 'click', function() {
+  chrome.tabs.create({ url: 'https://chat.openai.com/?model=gpt-4-code-interpreter' });
 });
 
 addEventListenerOnce('openButton4Default', 'click', function() {
