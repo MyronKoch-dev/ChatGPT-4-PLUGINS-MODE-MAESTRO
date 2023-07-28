@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "ChatGPT PLUS | MODE MAESTRO",
-  "version": "1.1",
+  "version": "1.2",
   "description": "Quickly access any mode of ChatGPT Plus: GPT-4+Plugins, GPT-4+Code Interpreter, GPT-4 Default, or GPT-3.5 Default-No more detours!",
   "permissions": [],
   "action": {
