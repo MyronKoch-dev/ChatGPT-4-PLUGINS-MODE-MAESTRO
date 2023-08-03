@@ -6,7 +6,7 @@ function changeDropdownHeight() {
   var dropdown = document.querySelector('.max-h-60');
   if (dropdown) {
     console.log('Dropdown menu found.');
-    dropdown.style.maxHeight = (window.innerHeight * 0.8) + 'px'; // 80% of window height
+    dropdown.style.maxHeight = (window.innerHeight * 0.6) + 'px'; // 60% of window height
   } else {
     console.log('Dropdown menu not found.');
   }
