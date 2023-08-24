@@ -2,11 +2,10 @@ console.log('Content script has started.');
 
 // Function to change the dropdown height
 function changeDropdownHeight() {
-  // Target the dropdown with the .max-h-60 class
   var dropdown = document.querySelector('.max-h-60');
   if (dropdown) {
     console.log('Dropdown menu found.');
-    dropdown.style.maxHeight = (window.innerHeight * 0.6) + 'px'; // 60% of window height
+    dropdown.style.maxHeight = (window.innerHeight * 0.5) + 'px'; // 50% of window height
   } else {
     console.log('Dropdown menu not found.');
   }
@@ -23,3 +22,4 @@ var observer = new MutationObserver(function(mutations) {
 
 // Start observing the document with the configured parameters
 observer.observe(document, { childList: true, subtree: true });
+
